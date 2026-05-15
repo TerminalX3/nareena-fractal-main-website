@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Softer-than-pure OLED: eased contrast for long reading sessions */
+  --background: hsl(226 21% 8%);
+  --foreground: hsl(52 34% 92%);
+  --muted: hsl(210 17% 64%);
+  --surface: hsl(225 21% 12%);
+  --surface-elevated: hsl(224 21% 16%);
+  --border: hsl(206 26% 24% / 0.72);
+  --accent: hsl(172 54% 50%);
+  --accent-muted: hsl(172 48% 50% / 0.38);
+  --about-rail: hsl(172 38% 45% / 0.34);
+  --viz-bg: #0e1218;
+
+  color-scheme: dark;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: var(--font-body), ui-serif, Georgia, serif;
+  text-rendering: optimizeLegibility;
+}
+
+.font-display {
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+}
+
+.font-mono-technical {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+/* Very light veil — softer than CRT */
+.scanlines::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 3px,
+    rgba(0, 10, 20, 0.04) 3px,
+    rgba(0, 10, 20, 0.04) 4px
+  );
+  opacity: 0.5;
+}
+
+.scanlines-strong::after {
+  opacity: 1;
+}
+
+/* KaTeX: match eased field */
+.article-prose .katex {
+  font-size: 1.08em;
+  color: var(--foreground);
+}
+.article-prose .katex-display {
+  overflow-x: auto;
+  margin: 2.25rem 0;
+  padding: 1rem 0;
+}
+
+.article-prose p {
+  margin: 1.125rem 0;
+}
+.article-prose p:first-of-type {
+  margin-top: 0;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

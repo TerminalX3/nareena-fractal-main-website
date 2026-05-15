@@ -1,0 +1,50 @@
+papers:
+  - slug: nareena-fractal-visual-basic-exploration
+    title: "Nareena Fractal: A Visual Basic Exploration"
+    authors:
+      - Nareena Fractal
+    journal: ResearchGate
+    year: 2024
+    topic: foundations
+    foundational: true
+    url: "https://www.researchgate.net/publication/386422994_Nareena_Fractal_A_Visual_Basic_Exploration"
+  - slug: from-theory-to-practice-nareena-fractals-fibonacci
+    title: "From Theory to Practice: Nareena Fractals and Fibonacci Sets in Mathematics and Beyond"
+    authors:
+      - Nareena Fractal
+    journal: ResearchGate
+    year: 2024
+    topic: mathematics
+    url: "https://www.researchgate.net/publication/384883795_From_Theory_to_Practice_Nareena_Fractals_and_Fibonacci_Sets_in_Mathematics_and_Beyond_beauty"
+  - slug: establishing-formula-bone-strength-nareena-fractal
+    title: "Establishing a Formula for Bone Strength Using the Nareena Fractal"
+    authors:
+      - Nareena Fractal
+    journal: ResearchGate
+    year: 2024
+    topic: biomedical
+    url: "https://www.researchgate.net/publication/386461197_Establishing_a_Formula_for_Bone_Strength_Using_the_Nareena_Fractal"
+  - slug: nlp-nareena-fractal-lstm-sentiment-analysis
+    title: "A Novel Approach to NLP using Nareena Fractal and LSTM Networks: A Case Study on Sentiment Analysis"
+    authors:
+      - Nareena Fractal
+    journal: ResearchGate
+    year: 2024
+    topic: computer-science
+    url: "https://www.researchgate.net/publication/388628639_Title_A_Novel_Approach_to_NLP_using_Nareena_Fractal_and_LSTM_Networks_A_Case_Study_on_Sentiment_Analysis"
+  - slug: healthcare-data-security-nareena-fractal-framework
+    title: "Healthcare Data Security: A Smart Contract Nareena Fractal Framework"
+    authors:
+      - Nareena Fractal
+    journal: ResearchGate
+    year: 2025
+    topic: security
+    url: "https://www.researchgate.net/publication/397446234_Healthcare_Data_Security_A_Smart_Contract_Nareena_Fractal_Framework"
+  - slug: 25-nobel-paradoxes
+    title: "25 Nobel Paradoxes"
+    authors:
+      - Nareena Fractal
+    journal: ResearchGate
+    year: 2025
+    topic: foundations
+    url: "https://www.researchgate.net/publication/404394635_25_Nobel_Paradoxes"
