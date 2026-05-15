@@ -37,12 +37,14 @@ export default function AboutPage() {
               <p>
                 Fractals are mathematical structures that exhibit self-similar patterns
                 across multiple scales, meaning that smaller portions of the structure
-                resemble the larger system from which they originate. Such fractal behavior is observed across a wide range of
+                resemble the larger system from which they originate
+                <Cite n={1} />. Such fractal behavior is observed across a wide range of
                 natural and physical systems, including coastline formation, crystalline
                 growth, vascular networks, turbulence, and wave-like propagation
                 phenomena. Specifically, because fractal structures typically arise from
                 recursive mathematical rules, they are commonly used to describe systems
-                governed by repetition, feedback, and scale-dependent organization.
+                governed by repetition, feedback, and scale-dependent organization
+                <Cite n={2} />.
               </p>
             </section>
 
@@ -55,14 +57,15 @@ export default function AboutPage() {
                 because many physical processes, including quantum state evolution,
                 gravitational dynamics, particle transport mechanisms, neural signaling
                 pathways, and time-dependent material responses, evolve through sequential
-                dependencies in which prior states influence subsequent outcomes. In such systems, small variations in initial conditions or
+                dependencies in which prior states influence subsequent outcomes
+                <Cite n={3} />. In such systems, small variations in initial conditions or
                 structural parameters can lead to significant divergence in long-term
                 behavior, limiting the applicability of purely linear or equilibrium-based
                 models. Such behaviors are commonly studied using established mathematical
                 frameworks such as Chaos Theory, fractal-based modeling, and nonlinear
                 dynamical systems, which are specifically designed to describe systems
                 where small changes in initial conditions can lead to large variations in
-                long-term outcomes.
+                long-term outcomes<Cite n={4} />.
               </p>
             </section>
 
@@ -73,9 +76,10 @@ export default function AboutPage() {
               <p>
                 The Nareena Fractal is defined as a discrete recursive sequence fractal in
                 which each term is generated from the combination of the two preceding
-                values. Unlike linear sequences, where changes propagate
+                values<Cite n={6} />. Unlike linear sequences, where changes propagate
                 proportionally, recursive systems of this form produce behavior that is
-                highly dependent on initial conditions and early-stage iteration. As a result, even small variations in starting values can
+                highly dependent on initial conditions and early-stage iteration
+                <Cite n={7} />. As a result, even small variations in starting values can
                 significantly alter the long-term evolution of the sequence.
               </p>
               <p>The framework is defined by the recurrence relation:</p>
